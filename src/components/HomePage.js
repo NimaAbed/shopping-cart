@@ -13,7 +13,6 @@ const HomePage = () => {
     useEffect(() => {
         dispatch(fetchProducts())
     }, [])
-    console.log(products)
 
     if (loading) return <div style={{ height: "83.2vh", textAlign: "center" }}>Loding...</div>
 

@@ -15,7 +15,6 @@ const DetailsPage = () => {
                 </Grid>
                 <Grid item xs={12} sm={7} md={9}>
                     <Box component="div" border="2px solid silver" p={1}>
-                        {console.log(data)}
                         <Typography component="h4" variant="h6" color="primary">{data.title}</Typography>
                         <Typography component="p" variant="p" mt={1}>{data.description}</Typography>
                         <Typography component="p" variant="p" color="#ffca28" my={1}>Category:<span style={{ color: "silver", marginLeft: "3px" }}>{data.category}</span></Typography>

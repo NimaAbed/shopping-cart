@@ -8,7 +8,6 @@ const totals = (state) => {
     const count = state.itemSelected.reduce((total, count) => total + count.quentity, 0)
     const total = state.itemSelected.reduce((total, count) => total + count.quentity * count.price, 0)
 
-    console.log(count)
 
     return { itemCounter: count, total: total }
 }

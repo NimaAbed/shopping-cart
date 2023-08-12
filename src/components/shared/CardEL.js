@@ -14,7 +14,6 @@ const CardEL = (props) => {
     const product = useSelector(item => item.buy)
     const dispatch = useDispatch()
 
-    console.log(product)
 
 
     return (
